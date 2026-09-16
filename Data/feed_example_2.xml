@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+<channel>
+	<title>Feed Example 2</title>
+	<link>example.com</link>
+	<description></description>
+	<item>
+		<g:id>M0310</g:id>
+		<title>Northpeak Men&#39;s Running Jacket - Blue</title>
+		<description>Lightweight, wind-resistant running jacket with a water-repellent finish and reflective details for low-light runs. Breathable mesh panels on the back keep you cool, and the zipped chest pocket fits a phone and keys. Packs into its own pocket.</description>
+		<link>https://example.com/shop/mens-running-jacket-blue-7100p.html</link>
+		<g:image_link>https://picsum.photos/id/20/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/21/600/600</g:additional_image_link>
+		<g:additional_image_link>https://placehold.co/600x600/1e3a8a/ffffff.png?text=Back</g:additional_image_link>
+		<g:price>899.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Northpeak</g:brand>
+		<g:gtin>7090012345011</g:gtin>
+		<g:item_group_id>M0310</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>7101</g:id>
+		<title>Northpeak Men&#39;s Running Jacket - Blue - Medium</title>
+		<description>Lightweight, wind-resistant running jacket with a water-repellent finish and reflective details for low-light runs. Breathable mesh panels on the back keep you cool, and the zipped chest pocket fits a phone and keys. Packs into its own pocket.</description>
+		<link>https://example.com/shop/mens-running-jacket-blue-medium-7101p.html</link>
+		<g:image_link>https://picsum.photos/id/20/600/600</g:image_link>
+		<g:price>899.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Northpeak</g:brand>
+		<g:gtin>7090012345028</g:gtin>
+		<g:item_group_id>M0310</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>7102</g:id>
+		<title>Northpeak Men&#39;s Running Jacket - Blue - Large</title>
+		<description>Lightweight, wind-resistant running jacket with a water-repellent finish and reflective details for low-light runs. Breathable mesh panels on the back keep you cool, and the zipped chest pocket fits a phone and keys. Packs into its own pocket.</description>
+		<link>https://example.com/shop/mens-running-jacket-blue-large-7102p.html</link>
+		<g:image_link>https://picsum.photos/id/20/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/26/600/600</g:additional_image_link>
+		<g:price>899.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Northpeak</g:brand>
+		<g:gtin>7090012345035</g:gtin>
+		<g:item_group_id>M0310</g:item_group_id>
+		<g:sale_price>749.00 NOK</g:sale_price>
+	</item>
+	<item>
+		<g:id>W1204</g:id>
+		<title>Fjordline Women&#39;s Merino Base Layer - Grey</title>
+		<description>Soft merino wool base layer for cold days on the trail or the slopes. Merino regulates temperature, wicks moisture and resists odour, so it stays fresh for several days of use. Flatlock seams prevent chafing under a backpack. Nå også i nye farger.</description>
+		<link>https://example.com/shop/womens-merino-base-layer-grey-1204p.html</link>
+		<g:image_link>https://picsum.photos/id/30/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/42/600/600</g:additional_image_link>
+		<g:price>649.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Fjordline</g:brand>
+		<g:gtin>7090012345042</g:gtin>
+		<g:item_group_id>W1204</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>P0455</g:id>
+		<title>Fuelwise Protein Bar - Salted Caramel (12 pcs)</title>
+		<description>Chewy protein bar with 20 g of protein and only 2 g of sugar per bar. A convenient snack after training or between meals. Box of 12 bars.</description>
+		<link>https://example.com/shop/protein-bar-salted-caramel-455p.html</link>
+		<g:image_link>https://picsum.photos/id/48/600/600</g:image_link>
+		<g:price>239.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Fuelwise</g:brand>
+		<g:gtin>7090012345059</g:gtin>
+		<g:item_group_id>P0455</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>P0456</g:id>
+		<title>Fuelwise Whey Protein 1 kg - Vanilla</title>
+		<description>Whey protein concentrate with a smooth vanilla taste that mixes easily with water or milk. Each serving provides 24 g of protein. Suitable as a post-workout shake or a quick high-protein breakfast.</description>
+		<link>https://example.com/shop/whey-protein-vanilla-456p.html</link>
+		<g:image_link>https://picsum.photos/id/60/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/96/600/600</g:additional_image_link>
+		<g:additional_image_link>https://dummyimage.com/600x600/0f766e/ffffff.png</g:additional_image_link>
+		<g:price>449.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>out of stock</g:availability>
+		<g:brand>Fuelwise</g:brand>
+		<g:gtin>7090012345066</g:gtin>
+		<g:item_group_id>P0456</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>A0890</g:id>
+		<title>Trailhaus Hiking Backpack 30 L</title>
+		<description>Versatile 30 litre backpack for day hikes. Ventilated back panel, adjustable hip belt and a separate compartment for a hydration bladder. Includes a rain cover stored in the bottom pocket.</description>
+		<link>https://example.com/shop/hiking-backpack-30l-890p.html</link>
+		<g:image_link>https://picsum.photos/id/102/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/119/600/600</g:additional_image_link>
+		<g:price>1299.00 NOK</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>preorder</g:availability>
+		<g:brand>Trailhaus</g:brand>
+		<g:gtin>7090012345073</g:gtin>
+		<g:item_group_id>A0890</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>A0891</g:id>
+		<title>Trailhaus Insulated Water Bottle 750 ml</title>
+		<description>Double-walled stainless steel bottle that keeps drinks cold for 24 hours or hot for 12 hours. Leak-proof lid with a carry loop. BPA free.</description>
+		<link>https://example.com/shop/insulated-water-bottle-750ml-891p.html</link>
+		<g:image_link>https://picsum.photos/id/145/600/600</g:image_link>
+		<g:price>24.90 EUR</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Trailhaus</g:brand>
+		<g:gtin>7090012345080</g:gtin>
+		<g:item_group_id>A0891</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>S3301</g:id>
+		<title>Stride Court &amp; Street Sneaker - White</title>
+		<description>Classic low-top sneaker with a leather upper and a cushioned rubber sole. Clean, minimal design that works on the court and in the street. Refurbished: inspected, cleaned and fitted with new laces.</description>
+		<link>https://example.com/shop/court-street-sneaker-white-3301p.html</link>
+		<g:image_link>https://picsum.photos/id/160/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/175/600/600</g:additional_image_link>
+		<g:additional_image_link>https://picsum.photos/id/180/600/600</g:additional_image_link>
+		<g:price>89.95 EUR</g:price>
+		<g:condition>refurbished</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Stride</g:brand>
+		<g:gtin>7090012345097</g:gtin>
+		<g:item_group_id>S3301</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+	<item>
+		<g:id>Y0072</g:id>
+		<title>Balance Yoga Mat 6 mm - Green</title>
+		<description>Non-slip yoga mat with 6 mm cushioning for joints during floor exercises. Made from recyclable TPE, lightweight and easy to clean. Comes with a carrying strap.</description>
+		<link>https://example.com/shop/yoga-mat-6mm-green-72p.html</link>
+		<g:image_link>https://picsum.photos/id/201/600/600</g:image_link>
+		<g:additional_image_link>https://picsum.photos/id/225/600/600</g:additional_image_link>
+		<g:price>39.00 USD</g:price>
+		<g:condition>new</g:condition>
+		<g:availability>in stock</g:availability>
+		<g:brand>Balance</g:brand>
+		<g:gtin>7090012345103</g:gtin>
+		<g:item_group_id>Y0072</g:item_group_id>
+		<g:sale_price></g:sale_price>
+	</item>
+</channel>
+</rss>

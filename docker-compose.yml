@@ -1,0 +1,57 @@
+# Shared settings for the api and worker services (same image, different command)
+x-app: &app
+  build: .
+  environment:
+    DATABASE_URL: postgresql://feed_db:feed_db@postgres:5432/feed_db
+    RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672
+  volumes:
+    - uploads:/app/uploads
+  depends_on:
+    postgres:
+      condition: service_healthy
+    rabbitmq:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: feed_db
+      POSTGRES_USER: feed_db
+      POSTGRES_PASSWORD: feed_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Runs only when postgres_data is empty (first start or after `docker compose down -v`)
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h localhost -U feed_db -d feed_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  rabbitmq:
+    image: rabbitmq:4
+    healthcheck:
+      # Plain TCP check on the AMQP port. Don't use rabbitmq-diagnostics here: it runs as root and,
+      # if it fires before the server has booted, creates a root-owned .erlang.cookie that crashes RabbitMQ (eacces)
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/5672'"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+
+  api:
+    <<: *app
+    command: gunicorn --bind 0.0.0.0:8000 --workers 2 api:app
+    ports:
+      - "8000:8000"
+
+  worker:
+    <<: *app
+    command: dramatiq tasks --processes 1 --threads 4
+
+volumes:
+  postgres_data:
+  uploads:
