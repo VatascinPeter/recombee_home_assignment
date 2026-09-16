@@ -42,7 +42,7 @@ Saving an image:
 curl.exe http://localhost:8000/feeds/<feed_id>/images/<image_id> --output <output_filepath>
 ```
 
-Specifically, this commands saves image with id=3 from feed with id=1 to a file 'img.jpg':
+Specifically, this command saves image with id=3 from feed with id=1 to a file 'img.jpg':
 
 ```shell
 curl.exe http://localhost:8000/feeds/1/images/3 --output img.jpg
@@ -76,7 +76,7 @@ curl.exe http://localhost:8000/feeds/<id from previous command>
 | GET /feeds/\<id>/images | array of image IDs assigned by the service |
 | GET /feeds/\<id>/images/\<image_id> | the image bytes, with its original content type |
 
-Note: <item_id> is the g:id value of an item, feed id and g:id uniquely define an item
+Note: \<item_id> is the g:id value of an item, feed id and g:id uniquely define an item
 
 ## Project Structure
 
@@ -87,7 +87,7 @@ any error the feed is marked _failed_.
 
 ### Docker parts
 
-__docker-compose.yml__ - runs four containers, API handling, Background worker, RabbitMQ/DramatiQ Messaging Queue, PostgreSQL Database
+__docker-compose.yml__ - runs four containers, API handling, Background worker, RabbitMQ Messaging Queue, PostgreSQL Database
 
 __Dockerfile__ - instructions to correctly set up Python environment for the API handling and Background worker
 
@@ -97,7 +97,7 @@ __requirements.txt__ - required Python libraries and their versions
 
 __api.py__ - REST API endpoint handling implemented using _Flask_, GET endpoints directly access the database
 
-__tasks.py__ - _DramatiQ_ agent function for xml file parsing and data storing in database
+__tasks.py__ - _Dramatiq_ actor for xml file parsing and data storing in database
 
 __db.py__ - using _psycopg2_ library, handles a database connection pool and provides cursors for _api.py_ and _tasks.py_
 
